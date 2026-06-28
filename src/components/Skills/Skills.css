@@ -26,7 +26,18 @@
   margin-bottom: 18px;
 }
 
-.skill-card__icon { font-size: 18px; }
+.skill-card__icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  color: var(--accent);
+  flex-shrink: 0;
+}
 
 .skill-card__title {
   font-size: 14px;

@@ -31,7 +31,18 @@
 .contact__link:last-child { border-bottom: none; }
 .contact__link:hover { background: var(--bg-secondary); opacity: 1; }
 
-.contact__link-icon { font-size: 18px; flex-shrink: 0; }
+.contact__link-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 6px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  color: var(--accent);
+  flex-shrink: 0;
+}
 
 .contact__link-label {
   display: block;
